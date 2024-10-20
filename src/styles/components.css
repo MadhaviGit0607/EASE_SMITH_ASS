@@ -1,0 +1,140 @@
+/* Header*/
+.header {
+    background-color: #4CAF50;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header h1 {
+    color: white;
+    font-size: 24px; 
+}
+
+.search-bar {
+    padding: 5px; 
+    border: 1px solid #1dc817;
+    border-radius: 5px;
+    width: 70%;
+}
+
+.icons {
+    display: flex;
+    gap: 15px;
+}
+
+.icon {
+    font-size: 24px;
+    color: white; 
+    text-decoration: none;
+    transition: transform 0.2s;
+}
+
+.icon:hover {
+    transform: scale(1.2); 
+}
+------------------------------------------------------------------------------------------------------------------
+/* Product Card*/
+.cart-count {
+    background-color: #ff5722;
+    border-radius: 12px;
+    color: white;
+    padding: 2px 6px;
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+.product-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 10px;
+}
+.product-card p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #4caf50;
+    margin: 5px 0;
+  }
+  
+.product-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+}
+
+.product-card-buttons button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 5px; 
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .view-product {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .view-product:hover {
+    background-color: #218838;
+    transform: translateY(-2px);
+  }
+  
+  .add-to-cart {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .add-to-cart:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+  }
+  
+  .add-to-cart span {
+    font-weight: bold;
+    font-size: 18px;
+  }
+--------------------------------------------------------------------------------------------------------------------
+  /* AddToCartModal*/
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal h2 {
+    color: white;
+}
+-----------------------------------------------------------------------------------------------------------------------------
+
+/*Pagination*/
+
+.pagination {
+    display: flex;
+    justify-content: center !important;
+    margin: 20px 0;
+}
+
+.pagination button {
+    margin: 0 5px;
+    padding: 5px 10px;
+}
