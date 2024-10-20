@@ -16,7 +16,7 @@
     padding: 5px; 
     border: 1px solid #1dc817;
     border-radius: 5px;
-    width: 70%;
+    width: 50%;
 }
 
 .icons {
@@ -85,6 +85,8 @@
   .view-product {
     background-color: #28a745;
     color: white;
+    border-radius: 10px;
+    padding: 10px;
   }
   
   .view-product:hover {
@@ -95,6 +97,8 @@
   .add-to-cart {
     background-color: #007bff;
     color: white;
+    padding: 10px;
+    border-radius: 10px;
   }
   
   .add-to-cart:hover {
@@ -105,6 +109,15 @@
   .add-to-cart span {
     font-weight: bold;
     font-size: 18px;
+  }
+
+  .confirm-button{
+    background-color: aqua;
+    color: rgb(58, 56, 56);
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+
   }
 --------------------------------------------------------------------------------------------------------------------
   /* AddToCartModal*/
