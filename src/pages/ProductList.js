@@ -1,4 +1,3 @@
-// src/pages/ProductList.jsx
 import React, { useState } from 'react';
 import ProductCard from '../components/ProductCard';
 import AddToCartModal from '../components/AddToCartModal';
